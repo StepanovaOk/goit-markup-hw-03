@@ -205,6 +205,9 @@ img {
 
 /*portfolio*/
 
+.portfolio-container {
+  padding: 120px 156px;
+}
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
@@ -213,14 +216,32 @@ img {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
+.portfolio-list-item {
+}
+.portfolio-list-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-list {
+}
+.portfolio-all-text {
+  margin-bottom: 32px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .portfolio-names {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 .portfolio-text {
   color: #434455;
