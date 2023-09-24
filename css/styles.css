@@ -1,3 +1,8 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -9,7 +14,19 @@ li {
 a {
   text-decoration: none;
 }
+img {
+  display: block;
+}
 /*header*/
+
+.header-container {
+  display: flex;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
 .header-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -22,7 +39,10 @@ a {
 .logo {
   color: #2e2f42;
 }
+
 .nav-list {
+  display: flex;
+  gap: 40px;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -42,6 +62,8 @@ a {
   font-style: normal;
 }
 .address-list {
+  display: flex;
+  margin-left: auto;
   color: #434455;
   font-size: 16px;
   line-height: 1.5; /* 150% */
@@ -56,10 +78,18 @@ a {
 .address-list:hover {
   color: #404bbf;
 }
+
 /*header*/
 /*section1*/
 .title-section {
   background-color: #2e2f42;
+}
+
+.container-solutions {
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  padding: 188px 472px 188px 472px;
 }
 
 .main-title {
@@ -69,6 +99,9 @@ a {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  width: 100%;
+  max-height: 120px;
+  margin: 0 auto 48px;
 }
 .solutions-btn {
   font-family: inherit;
@@ -80,6 +113,11 @@ a {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .solutions-btn:hover {
   background-color: #404bbf;
@@ -97,6 +135,12 @@ a {
 
 .solutions-list {
   background-color: #ffffff;
+  width: calc((100% - 24px * 3) / 4);
+}
+.solutions-list-menu {
+  padding: 120px 156px;
+  display: flex;
+  gap: 24px;
 }
 
 .solution-title-list {
@@ -105,6 +149,7 @@ a {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .solutions-text {
   color: #434455;
@@ -119,6 +164,10 @@ a {
 .team {
   background-color: #f4f4fd;
 }
+.team-container {
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
 .team-title {
   color: #2e2f42;
   text-align: center;
@@ -130,6 +179,11 @@ a {
 }
 .team-list {
   background-color: #ffffff;
+  display: inline-flex;
+  padding-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
 }
 .team-names {
   color: #2e2f42;
@@ -138,6 +192,8 @@ a {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  padding: 32px 0;
+  text-align: center;
 }
 .team-profession {
   color: #434455;
