@@ -17,8 +17,15 @@ a {
 img {
   display: block;
 }
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 /*header*/
-
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
 }
@@ -35,6 +42,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo {
   color: #2e2f42;
@@ -48,6 +56,7 @@ img {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .nav-list:active {
   color: #404bbf;
@@ -63,7 +72,7 @@ img {
 }
 .address-list {
   display: flex;
-  margin-left: auto;
+  gap: 40px;
   color: #434455;
   font-size: 16px;
   line-height: 1.5; /* 150% */
