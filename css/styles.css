@@ -98,7 +98,7 @@ img {
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
-  padding: 188px 472px 188px 472px;
+  padding: 188px 0;
 }
 
 .main-title {
@@ -108,7 +108,7 @@ img {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
-  width: 100%;
+  max-width: 496px;
   max-height: 120px;
   margin: 0 auto 48px;
 }
@@ -124,7 +124,10 @@ img {
   cursor: pointer;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
   padding: 16px 32px;
+  border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
