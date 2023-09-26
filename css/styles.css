@@ -308,6 +308,7 @@ img {
 }
 .logo-f {
   color: #f4f4fd;
+  display: inline-block;
 }
 .footer-logo {
   color: #4d5ae5;
