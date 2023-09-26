@@ -152,7 +152,6 @@ img {
 .solutions-list {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
-  max-width: 264px;
 }
 .solutions-list-menu {
   display: flex;
@@ -299,7 +298,6 @@ img {
 /*footer*/
 
 .footer-container {
-  display: flex;
   flex-direction: column;
 }
 .footer {
