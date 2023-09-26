@@ -28,6 +28,8 @@ img {
 }
 .header-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header-nav {
   display: flex;
