@@ -34,7 +34,6 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
-  flex-grow: 1;
   justify-content: space-between;
 }
 .header-logo {
@@ -54,6 +53,8 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
+}
+.nav-list-item {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -61,13 +62,13 @@ img {
   letter-spacing: 0.02em;
   padding: 24px 0;
 }
-.nav-list:active {
+.nav-list-item:active {
   color: #404bbf;
 }
-.nav-list:focus {
+.nav-list-item:focus {
   color: #404bbf;
 }
-.nav-list:hover {
+.nav-list-item:hover {
   color: #404bbf;
 }
 .address {
@@ -80,18 +81,20 @@ img {
   justify-content: flex-end;
   align-items: center;
   gap: 40px;
+}
+.address-list-item {
   color: #434455;
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.address-list:active {
+.address-list-item:active {
   color: #404bbf;
 }
-.address-list:focus {
+.address-list-item:focus {
   color: #404bbf;
 }
-.address-list:hover {
+.address-list-item:hover {
   color: #404bbf;
 }
 
