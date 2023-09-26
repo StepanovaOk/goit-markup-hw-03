@@ -250,7 +250,7 @@ img {
   margin: 0;
 }
 
-/*portfolio*/
+/*section3 portfolio*/
 .portfolio-section {
   padding: 120px 0;
 }
@@ -283,6 +283,7 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  min-width: 360px;
 }
 .portfolio-names {
   color: #2e2f42;
