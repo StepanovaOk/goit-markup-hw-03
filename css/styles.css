@@ -8,6 +8,10 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
 li {
   list-style-type: none;
 }
@@ -30,6 +34,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 72px;
+  padding: 24px 0;
 }
 .header-nav {
   display: flex;
@@ -60,7 +66,6 @@ img {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 .nav-list-item:active {
   color: #404bbf;
@@ -219,14 +224,10 @@ img {
 }
 .team-list-item {
   display: inline-block;
-  margin-right: 24px;
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   min-width: 264px;
-}
-.team-list-item:last-child {
-  margin-right: 0;
 }
 .all-team-text {
   padding: 32px 0;
